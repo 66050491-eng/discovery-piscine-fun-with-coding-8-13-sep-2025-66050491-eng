@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* ทำให้ body กินพื้นที่เต็มหน้าจอ */
+    margin: 0;
+    transition: background-color 0.5s ease; /* เพิ่มการเปลี่ยนสีแบบนุ่มนวล */
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #77bc7a; /* สีเขียว */
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #74ab77; /* สีเขียวเข้มขึ้นเมื่อเอาเมาส์ไปวาง */
+}

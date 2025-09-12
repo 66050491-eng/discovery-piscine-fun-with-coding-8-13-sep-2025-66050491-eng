@@ -1,0 +1,39 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    color: white;
+}
+
+.parallax-section {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1 {
+    background-image: url('https://images.accentuate.io/?c_options=w_2136&shop=vetslovepets-prod.myshopify.com&image=https://cdn.accentuate.io/592401268972/1731453596640/iStock-1367655730.jpg?v=1731453596640'); /* เปลี่ยน URL เป็นรูปภาพของคุณ */
+}
+
+#section2 {
+    background-image: url('https://images.accentuate.io/?c_options=w_1932&shop=vetslovepets-prod.myshopify.com&image=https://cdn.accentuate.io/592401268972/1731425638813/iStock-1296973230.jpg?v=1731425638813'); /* เปลี่ยน URL เป็นรูปภาพของคุณ */
+}
+
+.solid-section {
+    background-color: #000;
+    color: white;
+    padding: 50px;
+}
+
+.text-content {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
